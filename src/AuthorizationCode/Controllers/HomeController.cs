@@ -27,7 +27,7 @@ namespace AuthorizationCode.Controllers
         private const string TokenEndpoint = "/token";
 
         private const string AuthorizationCodeResponseType = "code";
-        private const string ScopeOpenId = "openid";
+        private const string ScopeOpenId = "openid offline_access";
 
         // !!!! do not use this method in a productive environment!
         // !!!! this is only for this showcase
