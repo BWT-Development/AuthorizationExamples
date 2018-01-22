@@ -14,7 +14,7 @@ namespace AuthorizationCode.Controllers
     public class HomeController : Controller
     {
         // specific values
-        private string AuthenticationEndpoint = "<openid_provider_url";
+        private string AuthenticationEndpoint = "<openid_provider_url>";
         private string ClientId = "<your client_id>";
         private string ClientSecret = "<your client_secret>";
         private string CallbackUrl = "https://localhost:44326/Home/Callback";
